@@ -4,15 +4,24 @@
     "separator": "*"
   },
   "constructor": "M.plugin.MaxExtZoom",
-  "parameters": [{
-    "type": "object",
-    "properties": [{
-      "type": "enum",
-      "name": "position",
-      "position": 0,
-      "possibleValues": ["TL", "TR", "BL", "BR"]
-    }]
-  }],
+  "parameters": [
+    {
+      "type": "object",
+      "properties": [
+        {
+          "type": "enum",
+          "name": "position",
+          "position": 0,
+          "possibleValues": [
+            "TL",
+            "TR",
+            "BL",
+            "BR"
+          ]
+        }
+      ]
+    }
+  ],
   "files": {
     "ol": {
       "scripts": "maxextzoom.ol.min.js",
@@ -21,10 +30,10 @@
   },
   "metadata": {
     "name": "MaxExtZoom",
-    "description": "Zooms to original map size",
-    "text": "On click zooms to map extent and center",
+    "description": "Zoom a la extensión del mapa",
+    "text": "Permite realizar un zoom a la extensión del mapa ",
     "version": "1.0.0",
-    "date": "",
+    "date": "Diciembre, 2019",
     "author": "",
     "org": "Consejería de Medioambiente y Ordenación del Territorio de la Junta de Andalucía",
     "tags": "mapea,plugin",
