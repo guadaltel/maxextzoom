@@ -4,28 +4,24 @@
     "separator": "*"
   },
   "constructor": "M.plugin.MaxExtZoom",
-  "parameters": [
-    {
-      "type": "object",
-      "properties": [
-        {
-          "type": "enum",
-          "name": "position",
-          "position": 0,
-          "possibleValues": [
-            "TL",
-            "TR",
-            "BL",
-            "BR"
-          ]
-        }
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "position": 0,
+      "possibleValues": [
+        "TL",
+        "TR",
+        "BL",
+        "BR"
       ]
-    }
-  ],
+    }]
+  }],
   "files": {
     "ol": {
-      "scripts": "maxextzoom.ol.min.js",
-      "styles": "maxextzoom.ol.min.css"
+      "scripts": ["maxextzoom.ol.min.js"],
+      "styles": ["maxextzoom.ol.min.css"]
     }
   },
   "metadata": {
