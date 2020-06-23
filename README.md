@@ -20,8 +20,8 @@ Plugin que va a la extensión y posición original del mapa base.
 - El constructor se inicializa con un JSON de _options_ con los siguientes atributos:
 
 - **position**. Indica la posición donde se mostrará el plugin
-  - 'TL':top left
-  - 'TR':top right (default)
+  - 'TL':top left (por defecto)
+  - 'TR':top right 
   - 'BL':bottom left
   - 'BR':bottom right
 
